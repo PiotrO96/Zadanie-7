@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/miasto_textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Miasto:"></TextView>
+        <TextView
+            android:id="@+id/city_name_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="">
+        </TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/koordynaty_textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Koordynaty:"></TextView>
+        <TextView
+            android:id="@+id/lista_koordynatow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="">
+        </TextView>
+    </TableRow>
+
+</TableLayout>
